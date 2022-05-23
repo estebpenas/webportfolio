@@ -7,11 +7,15 @@
 <!-- Boostrap link -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 
+<link rel="stylesheet" href="index.css">
+
+
+
     <title>Capstone 1</title>
   </head>
 
 
-  <body>
+  <body class="indi">
 
      <!-- Navbar Start -->
       <div class="">
@@ -24,8 +28,8 @@
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
               <a class="nav-link active text-light" href="#home">Home <span class="sr-only">(current)</span></a>
-              <a class="nav-link text-light" href="#">Projects</a>
-              <a class="nav-link text-light" href="#">Tools</a>
+              <a class="nav-link text-light" href="#proj">Projects</a>
+              <a class="nav-link text-light" href="#tools">Tools</a>
               <a class="nav-link text-light" href="#">Contacts</a>
             </div>
           </div>
@@ -37,13 +41,79 @@
       <!-- About Me Start -->
 
       <div class="text-center container-fluid">
-        <div class="d-flex">
+        <div class="d-flex p-1 mr-auto ins">
           <div class="container row col-4 mx-auto d-block">
-          <img src="https://scontent.fmnl4-2.fna.fbcdn.net/v/t1.6435-9/96670777_10217621427143481_1558403324003221504_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeHoqR4g__rCnKZNJZgr5-6KwDYL2wfRlY3ANgvbB9GVjXWn3xppiNY6qO5VGuePdCQ&_nc_ohc=sNCi-0nuFE0AX_8xvGv&_nc_ht=scontent.fmnl4-2.fna&oh=00_AT9lPFYWCO48yY8hrGHYJQ3yNObMNtn9rs_7WPk3Hbi-2Q&oe=62B001CE" class="rounded-circle border border-dark img-fluid" id="home"> <p>Hi. I'm Esteb a start-up programmer, I decided to take this course because I can see myself as a future web developer. I worked as a call center supervisor however, I find the work of a web developer more fulfilling. I'm starting my new WebDesigns and will share the results in this page for future references. </p>
+          <img src="https://scontent.fmnl4-2.fna.fbcdn.net/v/t1.6435-9/96670777_10217621427143481_1558403324003221504_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeHoqR4g__rCnKZNJZgr5-6KwDYL2wfRlY3ANgvbB9GVjXWn3xppiNY6qO5VGuePdCQ&_nc_ohc=sNCi-0nuFE0AX_8xvGv&_nc_ht=scontent.fmnl4-2.fna&oh=00_AT9lPFYWCO48yY8hrGHYJQ3yNObMNtn9rs_7WPk3Hbi-2Q&oe=62B001CE" class="rounded-circle border border-dark img-fluid" id="home">
+          <h2 class="mt-2 text-center text-md-left hey text-danger"> Hey! My Name is Esteb...</h3>
+
+           <p class="mt-2 text text-center text-md-left letter">I'm Esteb a start-up programmer, I decided to take this course because I wanted to see myself as a future web developer. I am a career shifter, I worked as a call center supervisor however, I find the work of a web developer more fulfilling. I'm starting my new WebDesigns and I will share the results on this page for future references. </p>
           </div>
         </div>
       </div>
 
+        <!-- About Me End -->
+
+
+        <!-- Projects Start -->
+
+
+      <div class="text-light min-vh-100 p-5">
+        <h2 class="mb-3 text-center" id="proj">Projects</h2>
+        <div class="pd-md-5 d-lg-flex justify-content-center">
+          <!-- HTML Card -->
+          <div class="card bg-transparent col-xl-4 mb-5 mb-xl-0" style="width: 18rem;">
+            <div class="card-body">
+              <img src="https://3.bp.blogspot.com/-7x5c_f1yzsQ/XHv9FZKHrEI/AAAAAAAADrE/4iGl9Lm6K2odX4SdWbU_RN6gZesx4IaGACEwYBhgL/s1600/html.jpg" class="card-img-top" alt="">
+              <h5 class="card-title mt-3">HTML</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Programming Basic</h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="card-link text-info">Link to project</a>
+
+            </div>
+          </div>
+
+          <!-- BOOTSTRAP Card -->
+        <div class="card bg-transparent col-xl-4 mb-5 mb-xl-0" style="width: 18rem;">
+          <div class="card-body">
+            <img src="https://ezywebbuilding.com/wp-content/uploads/2020/11/bootstrap-img.png" class="card-img-top" alt="">
+            <h5 class="card-title mt-3">BOOTSTRAP</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Rapid Prototyping</h6>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="card-link text-info">Link to project</a>
+            
+          </div>
+        </div>
+
+        <!-- NODE JS SERVER Card -->
+        <div class="card bg-transparent col-xl-4 mb-5 mb-xl-0" style="width: 18rem;">
+          <div class="card-body">
+            <img src="https://clever-solution.com/wp-content/uploads/2020/04/5625%D0%9C%D0%BE%D0%BD%D1%82%D0%B0%D0%B6%D0%BD%D0%B0%D1%8F-%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C-1-1280x720.png" class="card-img-top" alt="">
+            <h5 class="card-title mt-3">Node JS Server</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Backend Basics</h6>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="card-link text-info">Link to project</a>
+        
+          </div>
+        </div>
+          
+        </div>
+
+      </div>
+
+       <!-- Projects Ends -->
+
+      <!-- Tools Start -->
+
+      <div class="jumbotron my-3 d-flex flex-column justify-content-center align-items-center bg-transparent" id="tools">
+              <h3 class="text-center mt-2 mb-5">Coding Tools</h2>
+              <div class="d-flex flex-wrap justify-content-center mb-4">
+                  <img class="m-1 rounded" src="https://miro.medium.com/max/1400/1*wcEYa9AjnMZxXAau2iuhYw.png"/>
+              </div>
+
+      <!-- Tools End -->
+        
+
+     
 
 
 <!-- JS Bundle -->

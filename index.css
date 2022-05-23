@@ -1,0 +1,34 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit&family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet">
+
+* {
+
+	padding: 0;
+mmargin: 0;
+
+}
+
+.indi {
+
+	background-color: #C3D9C4;
+}
+
+.letter {
+
+	font-family: 'Oleo Script Swash Caps', cursive;
+
+
+}
+
+
+.hey {
+
+	font-family: 'Smooch', cursive;
+}
+
+
+.ins {
+
+	background-color: #90A791;
+}
